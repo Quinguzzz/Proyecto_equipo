@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    background-color: rgb(41, 9, 4);
+    color: rgb(99, 87, 21);
+}
+
+#contenedor {
+    border: 2px solid rgb(99, 87, 21); /* ← ahora sí aparece */
+    padding: 15px;
+}
+
+a {
+    color: rgb(99, 87, 21);
+}
