@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.informacion h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.informacion p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.historia h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.historia p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}
